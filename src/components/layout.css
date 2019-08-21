@@ -615,6 +615,26 @@ pre tt:before,
 pre tt:after {
   content: "";
 }
+.menu-list{
+  list-style-type: none;
+  display: flex;
+  justify-content: space-evenly;
+  background: #000;
+  margin: 0;
+}
+.menu-list li{
+  padding: 10px;
+  margin: 0;
+}
+.menu-list a{
+  text-decoration: none;
+  color:#fff;
+  padding: 10px;
+  transition: all 0.2s ease-in-out;
+}
+.menu-list a:hover{
+background: coral;
+}
 @media only screen and (max-width: 480px) {
   html {
     font-size: 100%;
